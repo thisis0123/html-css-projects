@@ -1,5 +1,4 @@
-<style>
-  .title {
+.title {
     font-family: Arial;
     font-weight: bold;
     margin-bottom: 0px;
@@ -43,22 +42,3 @@
 
 
 
-
-</style>
-
-
-
-
-<p class="title">
- HTML and CSS Course <span class="first-span">Beginner to Pro</span>
-</p>
-
-
-
-<p class="third-p">
-  In this course, we'll learn the skills you need to become a developer.
-</p>
-
-<button class="start-button">
-  Get started
-</button>
