@@ -1,0 +1,42 @@
+.first-input,
+.second-input {
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+
+.third-input {
+    display: block;
+    margin-top: 10px;
+    border-style: solid;
+    width: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+
+.sign-up {
+    margin-top: 10px;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(10, 102, 194);    
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
