@@ -1,0 +1,46 @@
+.first-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div {
+    margin-left: 10px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    display: inline-block;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+}
+
+.first-p {
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 4px
+}
+
+.second-p {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 4px
+}
+
+.first-button {
+    border: none;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 3px;
+    background-color: rgb(10, 102, 194);
+    cursor: pointer;
+    
+
+}

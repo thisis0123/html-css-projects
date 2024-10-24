@@ -1,0 +1,19 @@
+div {
+    font-family: Arial;
+    width: 380px;
+    height: 110px;
+    display: inline-block;
+    background-color: black;
+}
+
+.first-p {
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.second-p {
+    margin-left: 15px;
+    color: gray;
+}
