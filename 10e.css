@@ -1,0 +1,56 @@
+.first-h-l{
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+
+.profile-image,
+.friend-picture {
+    width: 100%;
+}
+ 
+
+.friend-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 50px;
+}
+
+.horizontal-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
