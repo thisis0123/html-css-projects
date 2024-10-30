@@ -1,0 +1,45 @@
+.flexboxes-container {
+  width: 430px;
+  border-radius: 5px;
+  box-shadow: 0 0px 3px rgba(0,0,0,0.4);
+
+}
+
+
+.v-l-1,
+.v-l-2,
+.v-l-3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  
+}
+
+.word {
+  flex: 1;
+  
+
+}
+
+
+
+button {
+  border-radius: 13px;
+  border: none;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+p {
+  font-family: Arial;
+  font-weight: 520;
+  margin: 0px;
+  margin-left:10px;
+}
