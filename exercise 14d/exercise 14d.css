@@ -1,0 +1,41 @@
+body {
+  height: 3000px;
+  
+}
+
+
+.sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 100px;
+}
+
+
+.cover-page {
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  position: fixed; 
+  left: 0; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal {
+  background-color: white;
+  width: 300px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+h2, p ,button {
+  font-family: Arial;
+  margin-left: 10px;
+}
