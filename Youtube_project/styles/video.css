@@ -1,0 +1,176 @@
+
+.first-image,
+.second-image {
+    width: 100%;
+    
+}
+
+
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+   
+}
+
+
+
+
+
+
+
+.video-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+} 
+
+.link-via-title {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  
+}
+
+.video-author {
+  margin-bottom: 5px;
+}
+
+
+.second-ver-layout {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 8px;
+
+  
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  
+}
+
+@media (max-width: 999px) and (min-width: 600px)   {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 599px){
+  .video-grid {
+    grid-template-columns:  1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+
+
+
+.thumbnail-row {
+  position: relative;
+}
+
+.video-time {
+  
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+
+.channel-picture,
+.channel-picture2,
+.channel-picture3,
+.channel-picture4,
+.channel-picture5,
+.channel-picture6{
+  position: relative;
+}
+
+
+
+
+.channel-picture .tooltip,
+.channel-picture2 .tooltip2,
+.channel-picture3 .tooltip3,
+.channel-picture4 .tooltip4,
+.channel-picture5 .tooltip5,
+.channel-picture6 .tooltip6{
+  position: absolute;
+  display: flex;
+  
+  bottom: -30px;
+  right: -100px;
+
+  
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  opacity: 0;
+  white-space: nowrap;
+  
+  
+}
+
+
+.tooltip-info {
+  margin-top: 3px;
+}
+
+.new {
+  display: inline-block;
+}
+
+
+
+body:has(.channel-picture .new:hover) .channel-picture .tooltip,
+body:has(.channel-picture2 .new:hover) .channel-picture2 .tooltip2,
+body:has(.channel-picture3 .new:hover) .channel-picture3 .tooltip3,
+body:has(.channel-picture4 .new:hover) .channel-picture4 .tooltip4,
+body:has(.channel-picture5 .new:hover) .channel-picture5 .tooltip5,
+body:has(.channel-picture6 .new:hover) .channel-picture6 .tooltip6 {
+  opacity: 1;
+}
+
+
+.tooltip-info  {
+  margin-left: 10px;
+}
+
+.tooltip-info p {
+  margin-bottom: 2px;
+}
+
+
+.profile-picture2 {
+  width: 36px;
+  border-radius: 50%;
+  
+   
+}
