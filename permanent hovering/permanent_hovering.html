@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <style>
+        .permanent-tooltip {
+          display: none;
+          height: 100px;
+          width: 300px;
+          border-radius: 10px;
+          background-color: pink;
+        }
+
+        body:has(.tooltip:hover) .permanent-tooltip,
+        .permanent-tooltip:hover{
+          display: block;
+        }
+
+      </style>
+    </head>
+    <body>
+
+      <div class="tooltip">
+        this is tooltip!
+      </div>
+
+      <div class="permanent-tooltip">
+        this a permanent tooltip
+      </div>
+      
+    </body>
+
+</html>
